@@ -1,7 +1,4 @@
 // THIS IS OUR WEB SERVER!!
-
-// With the help from both NODE and it's framework EXPRESS we can create clean and readable code instead of writing more lines of code
-
 // Example of Node without Express: https://developer.mozilla.org/en-US/docs/Learn/Server-side/Express_Nodejs/Introduction
 
 import express from 'express';

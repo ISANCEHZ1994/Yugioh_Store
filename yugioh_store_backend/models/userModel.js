@@ -19,15 +19,18 @@ export const UserSchema = new Schema({
     phone: {
         type: Number, //   NOTICE NOT INTEGER
     },
-    // password:{
-    //     type: String,
-    //     required: true,
+    password:{
+        type: String,
+        required: true,
+    },
+    // previousPurchased:{
+    //     type: Array,
     // },
-    // bio: {
-    //     type: String,
+    // wishList:{
+    //     type: Array,
     // },
     date: {
          type: Date, default: Date.now 
     },
     
-})
+});
